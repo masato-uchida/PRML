@@ -15,7 +15,7 @@ class Beta(RandomVariable):
       / gamma(n_ones) / gamma(n_zeros)
     """
 
-    def __init__(self, n_zeros, n_ones):
+    def __init__(self, n_ones, n_zeros):
         """
         construct beta distribution
 
